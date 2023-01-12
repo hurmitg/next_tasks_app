@@ -1,6 +1,6 @@
 import UserModel from "../../../models/user.model";
 import connectDB from "../../../config/db";
-import { generateToken } from "../../../../sports_app(take-live-calls)/backend/config/generateToken";
+import { generateToken } from "../../../config/generateToken";
 
 const handler = async (req, res) => {
   if (req.method == "POST") {
